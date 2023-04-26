@@ -81,7 +81,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   padding-right: 2%;
-  background-image: url(./img/hero-bg.png);
+  background-image: url(./img/hero-bg.webp);
   background-size: cover;
 }
 
@@ -158,7 +158,7 @@ body {
 
 @media screen and (min-width: 900px) {
   #es-garnier.es-garnier .es-kv__imgCtn {
-    background-image: url(./img/hero-photo.png);
+    background-image: url(./img/hero-photo.webp);
   background-size: cover;
   background-repeat: no-repeat;
     width: 550px;
@@ -395,14 +395,14 @@ width: 40ch;
 }
  /* [] jako ::before and ::after */
 #es-garnier.es-garnier .es-benefits__label::before {
-  content: url(img/border-1.png);
+  content: url(./img/border-1.webp);
   position: absolute;
   top: 0;
   left: 0;
 }
 
 #es-garnier.es-garnier .es-benefits__label::after {
-  content: url(img/border-2.png);
+  content: url(./img/border-2.webp);
   position: absolute;
   top: 0;
   right: 0;
@@ -458,7 +458,7 @@ width: 40ch;
   }
 
   #es-garnier.es-garnier .es-benefits__texts--1::before {
-    content: url("img/border-line-1.png");
+    content: url("./img/border-line-1.webp");
     position: absolute;
     top: 45px;
     left: 298px;
@@ -471,7 +471,7 @@ width: 40ch;
   }
    /* linia odnośnika do obrazka jest wstawiona jako ::before dla każdego elementu z osobna*/
   #es-garnier.es-garnier .es-benefits__texts--2::before {
-    content: url("img/border-line-2.png");
+    content: url("./img/border-line-2.webp");
     position: absolute;
     top: 46px;
     left: -154px;
@@ -482,7 +482,7 @@ width: 40ch;
     padding-left: 16px;
   }
   #es-garnier.es-garnier .es-benefits__texts--3::before {
-    content: url("img/border-line-3.png");
+    content: url("./img/border-line-3.webp");
     position: absolute;
     top: 6px;
     right: -190px;
@@ -494,7 +494,7 @@ width: 40ch;
   }
  
   #es-garnier.es-garnier .es-benefits__texts--4::before {
-    content: url("img/border-line-4.png");
+    content: url("./img/border-line-4.webp");
     position: absolute;
     top: -119px;
     left: -45px;
@@ -662,7 +662,7 @@ padding: 10px 20px;
 }
 
 #es-garnier.es-garnier .es-results__bg-right::before {
-  content: url(./img/results-packshot.png);
+  content: url(./img/results-packshot.webp);
   position: absolute;
   z-index: 999;
   right: 0;
@@ -676,7 +676,7 @@ padding: 10px 20px;
 }
 
 #es-garnier.es-garnier .es-results__bg-right {
-  background-image: url(./img/results-bg.png);
+  background-image: url(./img/results-bg.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1388,7 +1388,7 @@ padding: 10px 20px;
   }
   #es-garnier.es-garnier .es-ingredients__cards {
     margin: 0;
-    background: url(img/bg-ingr.png) no-repeat center center;
+    background: url(./img/bg-ingr.webp) no-repeat center center;
   }
   #es-garnier.es-garnier .es-ingredients__disclaimer {
     text-align: left;
@@ -1419,15 +1419,15 @@ padding: 10px 20px;
             transform: translateY(-50%);
   }
   #es-garnier.es-garnier .es-info__icon--1::before {
-    content: url("img/line-1.png");
+    content: url(".img/line-1.webp");
     left: -124px;
   }
   #es-garnier.es-garnier .es-info__icon--2::before {
-    content: url("img/line-1.png");
+    content: url(".img/line-1.webp");
     left: -124px;
   }
   #es-garnier.es-garnier .es-info__icon--3::before {
-    content: url("img/line-1.png");
+    content: url(".img/line-1.webp");
     left: -124px;
   }
 }
